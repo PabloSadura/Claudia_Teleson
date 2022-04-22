@@ -11182,8 +11182,8 @@ header {
 
 .link:hover::before {
   width: 100%;
-  border-color: #f7a935;
-  background: #f7a935;
+  border-color: #c2943e;
+  background: #c2943e;
 }
 
 .logo {
