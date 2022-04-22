@@ -1,9 +1,15 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @media screen and (min-width: 750px) {
   .txt-pad {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .img_principal {
+    width: 70%;
+    height: 70%;
   }
 }
 .txt-color {
@@ -11148,6 +11154,14 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+.btn-contact {
+  padding: 10px;
+  background: white;
+  border: 1px solid;
+  border-radius: 30px;
+  width: 10rem;
+}
+
 header {
   position: sticky;
   z-index: 10;
@@ -11205,7 +11219,7 @@ header {
   height: 30px;
   border: 1px solid black;
   top: 8px;
-  left: -1px;
+  left: -2px;
 }
 
 .list {
@@ -11278,6 +11292,21 @@ header {
   width: 80%;
   height: 80%;
   border-radius: 5%;
+}
+
+.redes {
+  font-size: 25px;
+  color: black;
+}
+
+.redes:hover {
+  color: #c2943e;
+}
+
+.tr_cards {
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=custom.css.map */
