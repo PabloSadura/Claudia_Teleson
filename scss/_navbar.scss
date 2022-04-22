@@ -1,0 +1,110 @@
+header{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding: 15px;
+}
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+
+}
+.link::before{
+    content: "";
+    position:absolute;
+    background: #ffff;
+    top: 20px;
+    width: 0%;
+    border: 1px solid #ffff;
+    border-radius: 10px 10px;
+    transition: all 1s ease;
+}
+.link:hover::before{
+    width: 100%;
+    border-color: rgb(247, 169, 53);
+    background: rgb(247, 169, 53);
+}
+.logo{
+    position: relative;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.logo::first-letter{
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 30px;
+    border: 1px solid black;
+    top: 8px;
+    left:-1px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler, .navbar label{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: end;
+        padding:20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+}
+
+.cuadro_barras{
+    position: relative;
+    width: 22px;
+    height: 15px;
+}
+.barras{
+    position: absolute;
+    top: 5px;
+    width: 20px;
+    height: 2px;
+    background: black;
+}
+.barras::before{
+    content: "";
+    position:absolute;
+    width: 20px;
+    height: 2px;
+    background: black;
+    top: -5px;
+}
+.barras::after{
+    content: "";
+    position:absolute;
+    width: 20px;
+    height: 2px;
+    background: black;
+    top: 5px;
+}
