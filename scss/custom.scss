@@ -1,7 +1,6 @@
-$colorPrincipal:rgb(194, 148, 62);
+@import "variables";
 @import "font";
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "style";
 @import "navbar";
 @import "img";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");

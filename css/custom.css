@@ -11991,13 +11991,6 @@ fieldset:disabled .btn {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -12164,6 +12157,15 @@ header {
           justify-content: center;
 }
 
+.img_contenedor::before {
+  content: "";
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
 .img_contenedor h1, .img_contenedor .h1 {
   position: absolute;
   padding: 2rem;
@@ -12187,7 +12189,7 @@ header {
 
 @media screen and (max-width: 760px) {
   .img_terapia {
-    height: 70vh;
+    height: 50vh;
   }
 }
 
