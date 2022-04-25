@@ -1,41 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-@media screen and (max-width: 760px) {
-  .img_terapia {
-    height: 40vh;
-  }
-  .menu {
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-  }
-  .list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
-    padding: 20px;
-  }
-  .navbar label {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    cursor: pointer;
-  }
-  #toggler:checked ~ .menu {
-    max-height: 100%;
-  }
-  h1, .h1, h2, .h2 {
-    font-size: 1rem;
-  }
-}
-
 * {
   font-family: "Montserrat";
 }
@@ -62,7 +26,7 @@
 .img_contenedor .h2 {
   position: absolute;
   padding: 2rem;
-  font-size: 5rem;
+  font-size: 5vw;
   color: white;
   z-index: 1;
   text-shadow: 1px 1px black;
@@ -12196,15 +12160,6 @@ header {
           justify-content: center;
 }
 
-.img_contenedor::before {
-  content: "";
-  position: absolute;
-  width: 98%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 1;
-}
-
 .redes {
   font-size: 25px;
   color: black;
@@ -12212,6 +12167,39 @@ header {
 
 .redes:hover {
   color: #c2943e;
+}
+
+@media screen and (max-width: 760px) {
+  .img_terapia {
+    height: 40vh;
+  }
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    padding: 20px;
+  }
+  .navbar label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 100%;
+  }
 }
 
 .card_terapia {
