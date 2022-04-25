@@ -28,21 +28,11 @@
     color: black;
 }
 .redes:hover{
-    color: rgb(194, 148, 62);
+    color: $colorPrincipal;
 }
 
 @media screen and(max-width:760px) {
     .img_terapia{
         height: 70vh;
     }
-    // .img_contenedor h1{
-    //     position: absolute;
-    //     color:white;
-    //     z-index: 1;
-    //     top: 30%;
-    //     left: 1%;
-    //     font-size: 4em;
-    //     text-shadow: 1px 1px black;
-    // }
-
 }
