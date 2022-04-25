@@ -2,20 +2,8 @@
 
 * {
   font-family: "Montserrat";
-}   
-
-// padding para la presentacion en responsive
-
-@media screen and (min-width: 760px) {
-  .txt-pad {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .img_principal {
-    width: 70%;
-    height: 70%;
-  }
 }
+
 // Nombre resaltado
 .txt-color {
   color: $colorPrincipal;
@@ -31,4 +19,15 @@
   bottom: 30%;
   width: inherit;
   border: 1px solid gainsboro;
+}
+
+.img_contenedor h1,
+.img_contenedor h2 {
+  position: absolute;
+  padding: 2rem;
+  font-size: 5rem;
+  color: white;
+  z-index: 1;
+  text-shadow: 1px 1px black;
+  align-self: center;
 }
