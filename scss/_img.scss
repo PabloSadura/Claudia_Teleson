@@ -1,18 +1,27 @@
 .img_principal{
     position: relative;
     width: 80%;
-    height: 80%;
-    border-radius: 5%;
+    height: 90%;
+    border-radius: 3%;
 }
 .img_terapia{
   position: relative;
   width: 100%;
   height: 100vh;
 }
+
 .img_contenedor{
     position:relative;
     display: flex;
     justify-content: center;
+}
+.img_contenedor::before{
+    content:"";
+    position: absolute;
+    background: rgba($color: #000000, $alpha: 0.5);
+    width: 97.99%;
+    height: 100%;
+    z-index: 1;
 }
 
 .redes{

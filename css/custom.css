@@ -26,10 +26,10 @@
 .img_contenedor .h2 {
   position: absolute;
   padding: 2rem;
-  font-size: 5vw;
+  font-size: 10vw;
   color: white;
   z-index: 1;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -12140,8 +12140,8 @@ header {
 .img_principal {
   position: relative;
   width: 80%;
-  height: 80%;
-  border-radius: 5%;
+  height: 90%;
+  border-radius: 3%;
 }
 
 .img_terapia {
@@ -12158,6 +12158,15 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.img_contenedor::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 97.99%;
+  height: 100%;
+  z-index: 1;
 }
 
 .redes {
