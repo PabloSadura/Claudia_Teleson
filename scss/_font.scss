@@ -18,7 +18,7 @@
   position: absolute;
   bottom: 30%;
   width: inherit;
-  border: 1px solid gainsboro;
+  border: 1px solid $colorSecundario;
 }
 
 .img_contenedor h1,
@@ -31,3 +31,27 @@
   text-shadow: 2px 2px black;
   align-self: center;
 }
+
+.frase{
+  position: relative;
+  font-size: 3vw;
+  padding-top: 1rem;
+}
+.frase h3::before{
+  content: "“";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  color: $colorSecundario;
+  font-size: 100px;
+}
+.frase h3::after{
+    content: "”";
+  position: absolute;
+  top: 0;
+  right: 12%;
+  color: $colorSecundario;
+  font-size: 100px;
+}
+
+
