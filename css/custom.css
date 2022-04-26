@@ -46,7 +46,7 @@
   content: "“";
   position: absolute;
   top: 0;
-  left: 12%;
+  left: 0;
   color: gainsboro;
   font-size: 100px;
 }
@@ -55,7 +55,7 @@
   content: "”";
   position: absolute;
   top: 0;
-  right: 12%;
+  right: 0;
   color: gainsboro;
   font-size: 100px;
 }
