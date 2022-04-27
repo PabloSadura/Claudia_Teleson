@@ -12171,7 +12171,7 @@ header {
 
 .img_terapia {
   position: relative;
-  width: 100%;
+  width: 98vw;
   height: 100vh;
 }
 
@@ -12189,7 +12189,7 @@ header {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
-  width: 97vw;
+  width: 98%;
   height: 100%;
   z-index: 1;
 }
@@ -12205,7 +12205,7 @@ header {
 
 @media screen and (max-width: 760px) {
   .img_terapia {
-    height: 40vh;
+    height: 50vh;
   }
   .menu {
     width: 100%;

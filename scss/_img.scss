@@ -6,7 +6,7 @@
 }
 .img_terapia{
   position: relative;
-  width: 100%;
+  width: 98vw;
   height: 100vh;
 }
 
@@ -19,7 +19,7 @@
     content:"";
     position: absolute;
     background: rgba($color: #000000, $alpha: 0.5);
-    width: 97vw;
+    width: 98%;
     height: 100%;
     z-index: 1;
 }
