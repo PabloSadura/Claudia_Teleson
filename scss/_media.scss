@@ -1,11 +1,5 @@
 @media screen and(max-width:760px) {
-    .img_terapia{
-        height: 50vh;
-    }
-    .img_contenedor::before{
-        width: 94vw;        
-    }
-    .menu{
+      .menu{
         width: 100%;
         max-height: 0;
         overflow: hidden;

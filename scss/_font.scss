@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 * {
   font-family: "Montserrat";
 }
@@ -20,39 +20,26 @@
   width: inherit;
   border: 1px solid $colorSecundario;
 }
-
-.img_contenedor h1,
-.img_contenedor h2 {
-  position: absolute;
-  margin: 10vw;
-  padding: 2rem;
-  font-size: 8vw;
+.text_title{
+  position:absolute;
+  width: 100%;
+  top: 15%;
+  text-align: center;
+  font-size: 7vw;
   color: white;
-  z-index: 1;
   text-shadow: 2px 2px black;
-  align-self: center;
 }
 
-.frase{
-  position: relative;
+.quote{
+  position:relative;
+  font-family: 'Satisfy', cursive;
   font-size: 3vw;
-  padding-top: 1rem;
 }
-.frase h3::before{
-  content: "“";
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: $colorSecundario;
-  font-size: 10vw;
+.quote::before{
+  content:"“";
 }
-.frase h3::after{
-    content: "”";
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: $colorSecundario;
-  font-size: 10vw;
+.quote::after{
+  content:"”";
 }
 
 
