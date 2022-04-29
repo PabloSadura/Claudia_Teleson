@@ -12029,13 +12029,14 @@ header {
   position: relative;
   text-decoration: none;
   color: inherit;
+  font-size: 1.5vw;
 }
 
 .link::before {
   content: "";
   position: absolute;
   background: #ffff;
-  top: 20px;
+  top: 25px;
   width: 0%;
   border: 1px solid #ffff;
   border-radius: 10px 10px;
@@ -12058,17 +12059,17 @@ header {
 .logo::first-letter {
   font-size: 30px;
   font-weight: 400;
-  margin-right: 4px;
+  margin-right: 3px;
 }
 
 .logo::before {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 30px;
+  width: 30px;
+  height: 35px;
   border: 1px solid black;
-  top: 7px;
-  left: -2px;
+  top: 2px;
+  left: -4px;
 }
 
 .list {
@@ -12219,8 +12220,8 @@ header {
 
 .btn-contact:hover {
   background: #c2943e;
-  -webkit-transition: all 300ms normal;
-  transition: all 300ms normal;
+  -webkit-transition: all 400ms normal;
+  transition: all 400ms normal;
   color: white;
 }
 /*# sourceMappingURL=custom.css.map */
