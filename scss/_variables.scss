@@ -1,3 +1,9 @@
 $colorPrincipal:rgb(194, 148, 62);
 
 $colorSecundario: gainsboro;
+
+$colorFondo : rgb(252, 233, 242);
+
+*{
+    background: $colorFondo;
+}

@@ -8,7 +8,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffff;
+    background-color: $colorFondo;
     padding: 15px;
 }
 .navbar a{
@@ -19,10 +19,10 @@ header{
 .link::before{
     content: "";
     position:absolute;
-    background: #ffff;
+    background: $colorFondo;
     top: 25px;
     width: 0%;
-    border: 1px solid #ffff;
+    border: 1px solid $colorFondo;
     border-radius: 10px 10px;
     transition: all 1s ease;
 }

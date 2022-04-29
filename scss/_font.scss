@@ -8,18 +8,6 @@
 .txt-color {
   color: $colorPrincipal;
 }
-// Linea de presentacion
-.linea {
-  position: relative;
-  width: 100%;
-}
-.linea::before {
-  content: "";
-  position: absolute;
-  bottom: 30%;
-  width: inherit;
-  border: 1px solid $colorSecundario;
-}
 .text_title{
   font-size: 7vw;
   color: white;
@@ -36,6 +24,9 @@
 }
 .quote::after{
   content:"”";
+}
+h1, h2{
+  background: transparent;
 }
 
 
