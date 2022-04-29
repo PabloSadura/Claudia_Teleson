@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 * {
-  font-family: "Montserrat";
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 .txt-color {
@@ -24,7 +24,6 @@
 }
 
 .text_title {
-  font-family: 'Montserrat';
   font-size: 7vw;
   color: white;
   text-shadow: 2px 2px black;
@@ -12203,13 +12202,6 @@ header {
   #toggler:checked ~ .menu {
     max-height: 100%;
   }
-}
-
-.card_terapia {
-  border: 1px solid gainsboro;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
 }
 
 .btn-contact {

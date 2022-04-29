@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
 * {
-  font-family: "Montserrat";
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 // Nombre resaltado
@@ -21,7 +21,6 @@
   border: 1px solid $colorSecundario;
 }
 .text_title{
-  font-family: 'Montserrat';
   font-size: 7vw;
   color: white;
   text-shadow: 2px 2px black;
