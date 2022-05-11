@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: "Sorts Mill Goudy", serif;
 }
 
 .txt-color {
@@ -22,7 +22,7 @@
 
 .quote {
   position: relative;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 3vw;
 }
 
@@ -34,7 +34,9 @@
   content: "”";
 }
 
-h1, .h1, h2, .h2 {
+h1, .h1,
+h2,
+.h2 {
   background: transparent;
 }
 
@@ -153,12 +155,16 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+
+h2,
+.h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
-  h2, .h2 {
+  
+  h2,
+  .h2 {
     font-size: 2rem;
   }
 }
@@ -12152,11 +12158,13 @@ header {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 253, 253, 0.3);
-  z-index: 1;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
 }
 
-.img_contenedor h1, .img_contenedor .h1 {
+.img_contenedor h1, .img_contenedor .h1,
+.imagen_contenedor h2,
+.imagen_contenedor .h2 {
   z-index: 2;
 }
 

@@ -1,32 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
 * {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: "Sorts Mill Goudy", serif;
 }
 
 // Nombre resaltado
 .txt-color {
   color: $colorPrincipal;
 }
-.text_title{
+.text_title {
   font-size: 7vw;
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px black;
 }
 
-.quote{
-  position:relative;
-  font-family: 'Satisfy', cursive;
+.quote {
+  position: relative;
+  font-family: "Satisfy", cursive;
   font-size: 3vw;
 }
-.quote::before{
-  content:"“";
+.quote::before {
+  content: "“";
 }
-.quote::after{
-  content:"”";
+.quote::after {
+  content: "”";
 }
-h1, h2{
+h1,
+h2 {
   background: transparent;
 }
-
-
