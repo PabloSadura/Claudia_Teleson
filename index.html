@@ -238,11 +238,9 @@
               >
               <input
                 class="form-control"
-                type="text"
+                type="email"
                 name="email"
-                placeholder="Email"
-                value=""
-                required
+                placeholder="Dirección de correo electrónico"
               />
             </div>
             <div class="col d-flex flex-column mt-3">
@@ -279,6 +277,9 @@
               <input class="btn-contact" type="reset" value="Borrar" />
               <input class="btn-contact ms-2" type="submit" value="Enviar" />
             </div>
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- <input type="hidden" name="_next" value="./page/gracias.html" /> -->
+            <input type="hidden" name="_subject" value="¡Nuevo envío!" />
           </form>
         </div>
       </section>
